@@ -1,0 +1,48 @@
+Guicorn - WSGI HTTP Server for UNIX.
+
+* Gunicorn Start
+$gunicorn --workers=2 
+
+Django Project
+$cd /path/to/djangoproject
+$gunicorn_django --worker=2
+
+<install>
+Deepak Malik installation 
+
+
+
+</install>
+
+
+<cmd>
+    *** Gunicone config files ***
+
+1. CMD
+
+</cmd>
+
+
+<help>
+1. Install
+2. cmd
+3. run
+</help>
+
+
+<run>
+1. How to start gunicorn with django
+$cd /path/project/
+$gunicorn_django --workers=2
+
+2. Configuration with Django 
+    a. update gunicorn on installed apps
+        INSTALLED_APP=(
+            ...
+            'gunicorn',
+            ...
+            )
+        $python manage.py run_gunicorn
+
+</run>
+

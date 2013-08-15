@@ -1,0 +1,10 @@
+<help>
+Fabric online help 
+1. install
+2. run 
+3. cmd 
+</help>
+
+<install>
+$pip install fabric 
+</install>

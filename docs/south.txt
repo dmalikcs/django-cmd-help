@@ -1,0 +1,33 @@
+<help>
+South online help
+1. install
+2. quickcmd
+
+</help>
+
+
+<quickcmd>
+$manager.py schemamigration APP --initial
+$python manage.py migrate APP
+$python manage.py schemamigration --auto
+</quickcmd>
+
+<cmd>
+Cmd help
+</cmd>
+
+
+
+<install>
+1. install south 
+$pip install south
+
+2. Install south on Django application
+INSTALLED_APP=(
+    ...
+    'south',
+    ...
+    )
+3. syncdb 
+$syncdb
+</install>

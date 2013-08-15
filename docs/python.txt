@@ -1,0 +1,11 @@
+<help>
+Python quick help 
+1. bultin:abs
+2. bultin:hasattr
+3. bultin:map
+
+</help>
+
+<builtin:abs>
+
+</builtin>
